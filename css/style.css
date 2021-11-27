@@ -1,0 +1,209 @@
+
+body{
+
+
+background-color: #250069;
+background-image: url("https://www.transparenttextures.com/patterns/fresh-snow.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+
+}
+
+
+
+#envalop,.envalop{
+  height:60%;
+  width:80%;
+  border-radius: 15%;
+  margin-left: .5em;
+  margin-top: 10em;
+  display: inline-block;
+  position:absolute;
+  top:0px;
+  left:10%;
+
+  animation: drive 6s;
+  animation-delay:.5s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-direction: normal;
+  animation-fill-mode:both;
+
+}
+@keyframes drive{
+  0%{top:-300px ;opacity:1;}
+      20%{top:100px ;opacity:1;}
+        40%{top:-100px ;opacity:1; }
+          60%{top:6px ;opacity:1;}
+          80%{top:6px ;opacity:0.5;}
+          100%{opacity:0;}
+
+
+}
+
+.btn{
+  width:400px;
+  height:150px;
+  font-family: ;
+  font-size: 40px;
+
+}
+
+
+
+
+
+#card  {
+  height:80%;
+  width:80%;
+  border-radius: 10%;
+  margin-left: .5em;
+  margin-top: 10em;
+  display: inline-block;
+  position:absolute;
+  top:200px;
+  left:10%;
+  background-color: black;
+
+  background-color: #f5caba;
+  background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+
+  animation: zoominoutsinglefeatured 2s;
+  animation-delay:5s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-direction: normal;
+  animation-fill-mode:both;
+
+}
+
+@keyframes zoominoutsinglefeatured {
+    0% {
+        transform: scale(0,0);
+    }
+    50% {
+        transform: scale(1.2,1.2);
+    }
+    100% {
+        transform: scale(1,1);
+    }
+}
+
+
+.balloons{
+  width:100%;
+  height:73%;
+
+  animation: zoominoutsinglefeatured 2s;
+  animation-delay:5s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-direction: normal;
+  animation-fill-mode:both;
+
+}
+
+
+#pic{
+border-radius: 75%;
+background-color: white;
+width:360px;
+height:418px;
+position: absolute;
+top:226px;
+left:213px;
+
+
+
+animation: zoominoutsinglefeatured 2s;
+animation-delay:7s;
+animation-iteration-count: 1;
+animation-timing-function: linear;
+animation-direction: normal;
+animation-fill-mode:both;
+
+
+}
+
+
+.rotate{
+  background-color: white;
+width:210px;
+height:210px;
+position: absolute;
+top:76px;
+left:-227px;
+
+animation: rotating 4s ;
+animation-delay:7s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+animation-direction: normal;
+animation-fill-mode:both;
+
+
+}
+
+
+@keyframes rotating {
+    0% {
+        transform: rotate(0deg);
+        left:-227px;
+
+    }
+    20% {
+        transform: rotate(60deg);
+        left:20px;
+    }
+    40% {
+        transform: rotate(120deg);
+        left:220px;
+    }
+    60%{
+        transform: rotate(180deg);
+        left:450px;
+    }
+    80%{
+        transform: rotate(240deg);
+        left:690px;
+        opacity:0.8;
+    }
+    100%{
+      transform: rotate(360deg);
+      left:880px;
+      opacity:0;
+    }
+}
+
+
+.text{
+  width:500px;
+  height:418px;
+  position: absolute;
+  top:645px;
+  left:150px;
+  font-size: 73px;
+  font-family: serif;
+  font-weight: bolder;
+  text-align: center;
+
+
+  animation: zoominoutsinglefeatured 2s;
+  animation-delay:9s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-direction: normal;
+  animation-fill-mode:both;
+
+}
+
+#alok{
+  position:absolute;
+  top: 580px;
+  left:455px;
+}
+#hero{
+  position:absolute;
+  top: 669px;
+  left:10px;
+}
